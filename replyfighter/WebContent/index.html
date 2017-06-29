@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+	width: 100%;
+	border: 1px solid gray;
+}
+
+header, footer {
+	padding: 1em;
+	color: white;
+	background-color: #555555;
+	clear: left;
+	text-align: center;
+}
+
+article {
+	border-left: 1px solid gray;
+	padding: 1em;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not (.active ) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #ff0000;
+	font-weight: bold;
+}
+
+.right {
+	float:right;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img alt="리플파이터" src="img/logo.png">
+		</header>
+		<nav>
+			<ul>
+				<li><a class="active" href="index.html">전체보기</a></li>
+				<li><a href="big.html">빅매치</a></li>
+				<li class="right"><a href="join.html">회원가입</a></li>
+				<li class="right"><a href="login.html">로그인</a></li>
+			</ul>
+		</nav>
+
+		<article>
+			<h1>제목</h1>
+			<p>내용</p>
+			<p>의견현황</p>
+		</article>
+
+		<footer>Copyright &copy; replyfighter.com</footer>
+
+	</div>
+
+</body>
+</html>
